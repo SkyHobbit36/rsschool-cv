@@ -1,6 +1,6 @@
 # Pavel Shiryaev
 
-![My photo](https://hhcdn.ru/photo/646312073.jpeg?t=1648228975&h=j4_aQaLEClsX1IiThLMVew)
+![My photo](./img/ava.jpeg)
 
 ## Contacts:
 
@@ -12,19 +12,19 @@
 
 I'am junior frontend developer. 10 years of experience as a web designer. Since 2020, I started learning JavaScript and continue to this day.
 
-## Scills:
+## Skills:
 
 - HTML, CSS
 - JavaSctipt
-- Git, GitHub,
+- Git, GitHub
 - Gulp, Webpack
 - React, Redux, axios, react-router-dom
 
 ## Work experience:
 
-- 2009. Flash animator
-- 2009-2013. Graphic designer, website design
-- 2013-present. Pogramming in Action Script 3, graphic designer, website design, create sites on worpress
+- 2009 Flash animator
+- 2009-2013 Graphic designer, website design
+- 2013-present Pogramming in Action Script 3, graphic designer, website design, create sites on worpress
 
 ## Achievements:
 
