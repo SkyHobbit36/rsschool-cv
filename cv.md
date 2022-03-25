@@ -36,18 +36,16 @@ Implemented the entire frontend, including the design. Also, the duties included
 
 ```
 function tribonacci(signature,n){
-  if (n == 0) {
-    signature = []
-  }
-  else if(n <= 3){
+  if (n == 0) return []
+  if(n <= 3){
     signature.length = n
+    return signature
   }
-  else{
-    while (n > 3){
-      let l = signature.length
-      signature.push(signature[l-1] + signature[l-2] + signature[l-3])
-      n--
-    }
+
+  while (n > 3){
+    let l = signature.length
+    signature.push(signature[l-1] + signature[l-2] + signature[l-3])
+    n--
   }
   return signature
 }

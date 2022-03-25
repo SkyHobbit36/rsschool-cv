@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="body">
+    <div class="container">
+      <aside class="sidebar">
+        <section class="sidebar__photo">
+          <img src="./img/photo.jpg" alt="my photo" />
+        </section>
+
+        <section class="sidebar-item sidebar__item">
+          <h2 class="sidebar-item__title">Contacts</h2>
+          <div class="sidebar-item_body">
+            <div>
+              <strong>Email: </strong
+              ><a href="mailto:skyhobbit@yandex.ru">skyhobbit@yandex.ru</a>
+            </div>
+            <div>
+              <strong>Phone: </strong
+              ><a href="tel:+79518750899">+7-951-875-08-99</a>
+            </div>
+            <div>
+              <strong>Discord rs-server: </strong>
+              Pavel SkyHobbit (@SkyHobbit36)
+            </div>
+            <div>
+              <strong>Telegramm: </strong
+              ><a href="https://t.me/Sky_Hobbit">Sky_Hobbit</a>
+            </div>
+          </div>
+        </section>
+        <section class="sidebar__item">
+          <h2 class="sidebar-item__title">Skills</h2>
+          <div class="sidebar-item_body">
+            <ul>
+              <li>HTML, CSS</li>
+              <li>JavaSctipt</li>
+              <li>Git, GitHub</li>
+              <li>Gulp, Webpack</li>
+              <li>React, Redux, axios, react-router-dom</li>
+            </ul>
+          </div>
+        </section>
+        <section class="sidebar__item">
+          <h2 class="sidebar-item__title">English</h2>
+          <div class="sidebar-item_body">A1-A2</div>
+        </section>
+        <section class="sidebar__item">
+          <h2 class="sidebar-item__title">Education</h2>
+          <div class="sidebar-item_body">Self-study</div>
+        </section>
+        <section class="sidebar__item">
+          <h2 class="sidebar-item__title">Hobbies</h2>
+          <div class="sidebar-item_body">
+            Guitar playing, computer games, walking, carpentry
+          </div>
+        </section>
+      </aside>
+      <main class="main">
+        <h1 class="main__title">Pavel<br />Shiryaev</h1>
+        <section class="main-item">
+          <h2 class="main-item__title">About me</h2>
+          <div class="main-item__body">
+            I'am junior frontend developer. 10 years of experience as a web
+            designer. Since 2020, I started learning JavaScript and continue to
+            this day.
+          </div>
+        </section>
+        <section class="main-item">
+          <h2 class="main-item__title">Work experience</h2>
+          <div class="main-item__body">
+            <ul>
+              <li>2009. Flash animator</li>
+              <li>2009-2013. Graphic designer, website design</li>
+              <li>
+                2013-present. Pogramming in Action Script 3, graphic designer,
+                website design, create sites on Worpress
+              </li>
+            </ul>
+          </div>
+        </section>
+        <section class="main-item">
+          <h2 class="main-item__title">Achievements</h2>
+          <div class="main-item__body">
+            <p>
+              The largest project is the development of a single page
+              application "Photo book and souvenir Editor" for the website
+              foto-sivma.ru
+            </p>
+            <p>JavaScript, jQuery, Gulp technologies are applied.</p>
+            <p>
+              Implemented the entire frontend, including the design. Also, the
+              duties included the preparation of technical tasks, negotiations
+              with the customer.
+            </p>
+          </div>
+        </section>
+        <section class="main-item">
+          <h2 class="main-item__title">Code examples</h2>
+          <div class="main-item__body">
+            <pre>
+              <code>
+function tribonacci(signature,n){
+  if (n == 0) return []
+  if(n <= 3){
+    signature.length = n
+    return signature
+  }
+
+  while (n > 3){
+    let l = signature.length
+    signature.push(signature[l-1] + signature[l-2] + signature[l-3])
+    n--
+  }
+  return signature
+}
+              </code>
+            </pre>
+          </div>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
